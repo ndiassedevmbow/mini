@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Gestion articles</title>
+    <title> Gestion articles </title>
     <script src="JQUERY/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
