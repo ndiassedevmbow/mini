@@ -5,11 +5,11 @@ $art = true;
 include_once 'header.php';
 
 $server = "localhost";
-$login = "root";
+$log = "root";
 $psw = "";
 
 try {
-    $bdd = new PDO("mysql:host=$server; dbname=gestCom", $login, $psw);
+    $bdd = new PDO("mysql:host=$server; dbname=gestCom", $log, $psw);
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
